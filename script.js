@@ -1,5 +1,3 @@
-# aplicativo.sorteio
-function bot(){
-var usuario=document.getElementById("brunetti").value;
-var camp="voce"
-document.getElementById("resposta").innerHTML;
+function sorteio() {
+  var numero = Math.randon() * 20
+  document.getElementById("resposta").innerHTML = numero; 
